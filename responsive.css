@@ -340,14 +340,16 @@
 }
 
     .imagenes > img {
-        height: 95%;
-        width: 90%;   
+        height: 90%;
+        width: 80%;   
+        margin-left: 40px;
     }
     .btnDescarga {
-        width: 70%;
+        width: 90%;
         display: flex;
-        font-size: 1.5rem;
+        font-size: 2rem;
         justify-content: center;
+        text-align: center  ;
     }
     .cajas{
         width: 50%;
@@ -387,9 +389,9 @@
         margin-left: auto;
         margin-right: auto;
       }
-      .imagenqr{
-        width:70%;
-        height:64%;
+     .imagenqr{
+        width:75%;
+        height:65%;
 
     }
 
