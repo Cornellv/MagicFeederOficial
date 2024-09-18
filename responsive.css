@@ -1,0 +1,396 @@
+/*Responsive*/
+/*Computador*/
+@media(min-width:1200px) and (max-width:1990px){
+    header{
+        font-size: 2rem;
+    }
+    .info{
+        grid-template-columns: 1fr 0.5fr;
+        grid-template-rows: 0.2fr 1fr;
+        padding-left: 20px;
+    }
+    .subtitulo { grid-area: 1 / 1 / 2 / 2; 
+        font-size: 4em;
+        text-align: center;
+        
+    }
+    .texto1 { grid-area: 2 / 1 / 3 / 1; 
+    font-size: 2em;
+    margin-top: 30px;
+    }
+    .di { grid-area: 1 / 2 / 3 / 3; } 
+    .logo1{
+        width: 380px;
+        height: 370px;
+        margin-top: 30px;
+    }
+    .screenshots{
+        padding-inline: 80px;
+            height: 100%;
+            width: 100%;
+    }
+    .imagenes{
+        margin-top: 22px;
+    }
+    .vistas:nth-child(1){
+        height: 100%;
+    }
+    .vistas:nth-child(2){
+        height: 100%;
+    }
+    .vistas:nth-child(3){
+        height: 100%;
+    }
+    .btnDescarga{
+        width: 80%;
+        display: flex;
+        font-size: 3rem;
+        justify-content: center;
+    }
+    .AD{
+        margin-inline: 175px;
+    }
+    .cajas{
+       border-radius: 30px;
+       font-size: 1.3rem;
+    }
+    .subtitulo3{
+        font-size: 3.2em;
+    }
+    .testimo{
+        font-size: 3.2em;
+    }
+    .uno{
+        margin-top: 20px;
+        font-size: 2em;
+    }
+    .uno .Huellas {
+        padding-left: 30px;
+        font-size: 0.9em;
+
+    }
+    .titulo-grande{
+        font-size: 4em;
+    }
+    .texto-horizontal>p{
+        font-size: 2.2em;
+    }
+    .division{
+        grid-template-rows: repeat(2fr, 1fr);
+    }
+    .montaña{ grid-area: 1 / 1 / 2 / 2;}
+    .estrella{  grid-area: 2 / 1 / 3 / 2;}
+    .carpeta{  grid-area: 1 / 2 / 3 / 3;}
+    .titlee{
+        font-size: 3em;
+    }
+    .carpeta > .titlee{
+        margin-top: 10px;
+    }
+    .text1{
+        margin-top: 10px;
+        font-size: 1.5em;
+    }
+
+  
+}
+/* portátiles */
+@media (min-width: 992px) and (max-width: 1199px) {    
+    header {
+        font-size: 2rem;
+    }
+
+    .info {
+        grid-template-columns: 1fr 0.5fr;
+        grid-template-rows: 0.2fr 1fr;
+        padding-left: 20px;
+    }
+
+    .subtitulo {
+        grid-area: 1 / 1 / 2 / 2; 
+        font-size: 4em;
+        text-align: center;
+    }
+
+    .logo1 {
+        width: 280px;
+        height: 260px;
+        margin-top: 40px;
+    }
+
+    .texto1 {
+        grid-area: 2 / 1 / 3 / 1; 
+        font-size: 1.5em;
+        padding: 7px;
+    }
+
+    .di {
+        grid-area: 1 / 2 / 3 / 3; 
+    }
+
+    .screenshots {
+        padding-inline: 20px;
+        height: auto;
+        align-items: center;
+    }
+
+    .imagenes > img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .cajas {
+        border-radius: 30px;
+        font-size: 1rem;
+    }
+
+    .subtitulo3 {
+        font-size: 3em;
+    }
+
+
+    .uno {
+        margin-top: 20px;
+        font-size: 2em;
+    }
+
+    .uno .Huellas {
+        padding-left: 30px;
+        font-size: 0.8em;
+    }
+    .comentario {
+        width: 50vw; /* Mantiene un ancho del 50% en pantallas grandes */
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+      }
+      .imagenqr{
+        width:350px;
+        height:340px;
+        margin-left: 14%;
+      }
+
+    .footer {
+        padding: 15px 50px;
+        width: auto;
+        height: 100%; /* Ajusta la altura automáticamente según el contenido */
+    }
+    .menufooter{
+        top: 10%;
+    }
+    .menu-icon {
+        font-size: 22px;
+        margin: 7px 10px;
+    }
+
+    .textautor {
+        font-size: 20px;
+    }
+
+    .btnDescarga {
+        width: 70%;
+        display: flex;
+        font-size: 2rem;
+        justify-content: center;
+    }
+
+}
+
+/*Tablet*/
+@media (min-width: 766px) and (max-width: 991px) {  
+    header {
+        font-size: 2rem;
+    }
+
+    .info {
+        grid-template-columns: 1fr 0.5fr;
+        grid-template-rows: 0.2fr 1fr;
+        padding-left: 20px;
+    }
+
+    .subtitulo {
+        grid-area: 1 / 1 / 2 / 2;
+        font-size: 3em;
+        text-align: center;
+    }
+
+    .texto1 {
+        grid-area: 2 / 1 / 3 / 1;
+        font-size: 1.3em;
+        padding: 7px;
+    }
+
+    .logo1 {
+        width: 200px;
+        height: 200px;
+        margin-top: auto;
+    }
+
+    .di {
+        grid-area: 1 / 2 / 3 / 3;
+    }
+
+    .screenshots {
+        padding-inline: 20px;
+        height: auto;
+        align-items: center;
+    }
+
+    .imagenes > img {
+        height: 100%;
+        width: 100%;
+    }
+    .btnDescarga {
+        width: 70%;
+        display: flex;
+        font-size: 2rem;
+        justify-content: center;
+    }
+    .cajas {
+        border-radius: 30px;
+        width: 65%;
+        font-size: 1rem;
+    }
+
+    .subtitulo3 {
+        font-size: 3em;
+    }
+
+
+    .uno {
+        margin-top: 20px;
+        font-size: 2em;
+    }
+
+    .uno .Huellas {
+        padding-left: 30px;
+        font-size: 0.8em;
+    }
+      
+    .comentario {
+        width: 55vw; /* Mantiene un ancho del 50% en pantallas grandes */
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+      }
+      .imagenqr{
+        width:310px;
+        height:300px;
+        margin-left: 15%;
+      }
+    .footer{
+        margin-top: 3%;
+      }
+      .menufooter {
+        height: 4vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background: #4b79e6;
+        padding-left: 0px;
+        z-index: 0;
+      }
+      
+
+    .menu-icon {
+        font-size: 22px;
+        margin: 7px 10px;
+    }
+
+    .textautor {
+        font-size: 20px;
+    }
+    .ul{
+        background-color: white;
+        font-size: 30%;
+        top:50%;
+        padding-inline: 20%;
+        padding-left: 0;
+    }
+    
+}
+
+/*Celular*/
+@media (max-width: 765px) {
+    header {
+        font-size: 2rem;
+    }
+
+
+    .texto1 {
+        font-size: 1.5em;
+        padding: 7px;
+        text-align: justify;
+    }
+
+    .logo1 {
+        width: 200px;
+        height: 200px;
+        margin-top: auto;
+    }
+
+
+    .screenshots {
+        padding-inline: 20px;
+        height: auto;
+        flex-direction: column; /* Hace que las imágenes se apilen verticalmente */
+        align-items: center; /* Centra las imágenes horizontalmente */
+        justify-content: center; /* Opcional: centra las imágenes verticalmente si hay suficiente espacio */
+}
+
+    .imagenes > img {
+        height: 95%;
+        width: 90%;   
+    }
+    .btnDescarga {
+        width: 70%;
+        display: flex;
+        font-size: 1.5rem;
+        justify-content: center;
+    }
+    .cajas{
+        width: 50%;
+    }
+    .TM{
+        font-size: 1.8em;
+    }
+    .img-3 {
+        display: none;
+    }
+
+    .AC {
+        display: block; /* Asegura que el contenedor sea visible */
+        text-align: center; /* Opcional: centra el contenido */
+        margin: 20px 0; /* Añade espacio alrededor */
+    }
+
+    .subtitulo3 {
+        font-size: 3em; /* Ajusta el tamaño del subtítulo para pantallas más pequeñas */
+    }
+
+    .uno {
+        font-size: 1.5em; /* Ajusta el tamaño de la fuente de los elementos de la lista */
+    }
+
+    .uno .Huellas {
+        padding-left: 20px; /* Elimina el padding para pantallas más pequeñas */
+        margin-bottom: 10px; /* Añade un margen inferior para separar los elementos */
+        font-size: 1em; /* Ajusta el tamaño de la fuente de cada ítem */
+        text-align: justify;
+    }
+    .enviarcomen{
+        font-size:2.5em;
+    }
+    .comentario {
+        width: 70vw; /* Mantiene un ancho del 50% en pantallas grandes */
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .imagenqr{
+        width:70%;
+        height:64%;
+
+    }
+
+}

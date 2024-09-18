@@ -1,0 +1,34 @@
+
+
+/*
+
+  margin: 5px; /* Espacio alrededor del icono */
+  background-color: Define el color de fondo.
+color: El color del texto.
+border: Elimina el borde.
+padding: Agrega espacio interno al botón.
+
+text-decoration: Elimina la decoración del texto (subrayado).
+display: Permite que el botón se comporte como un bloque en línea.
+font-size: Tamaño de la fuente.
+cursor: Cambia el cursor al pasar el mouse por encima.
+border-radius: Redondea las esquinas.
+text-align: center; ceentrar texto/*
+
+Asunto: Confirmación de tu compra en [Nombre de tu empresa]
+
+Estimado/a [Nombre del cliente],
+
+Gracias por tu compra.
+
+Te confirmamos que hemos recibido tu pedido número [Número de pedido].
+
+Estado de tu pago: [Exitoso/Fallido]
+
+[Detalles del pedido: productos comprados, cantidades, precios totales, etc.]
+
+Si tienes alguna pregunta, no dudes en contactarnos a [Dirección de correo electrónico del servicio al cliente].
+
+Atentamente,
+
+[Nombre de tu empresa]

@@ -1,0 +1,806 @@
+
+
+
+/*Portatil*/
+@media (min-width: 1000px) and (max-width: 1929px) {
+  header {
+    font-size: 2rem;
+  }
+  h1 {
+    font-family: "SourceCodePro";
+    font-size: 40px;
+    text-align: center;
+    top: -16px;
+    width: 100%;
+  }
+  h2 {
+    font-family: "SourceCodePro";
+    font-size: 25px;
+    text-align: center;
+    top: -45px;
+    width: 100%;
+  }
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-row-gap: 5px;
+    padding-top: 100px;
+    padding-left: 190px;
+    padding-right: 232px;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .descripo {
+    max-width: 800px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .radio-inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    margin-bottom: 25px;
+    max-width: 1500px;
+    margin: 0 auto;
+    top: -5px;
+  }
+
+  .pilin {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px 10px 20px;
+    background-color: #c4d7f9;
+    margin-top: 50px;
+    height: 56px;
+  }
+   
+  .modal {
+    background: #ffffff;
+    box-shadow: 0px 187px 75px rgba(0, 0, 0, 0.01),
+      0px 105px 63px rgba(0, 0, 0, 0.05), 0px 47px 47px rgba(0, 0, 0, 0.09),
+      0px 12px 26px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 26px;
+    position: fixed;
+    z-index: 1000;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 88%;
+    max-width: 450px;
+    height: 80vh;
+    max-height: 900px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .form {
+    width: 100%;
+    top: 10%;
+  }
+  .form.form{
+    padding-inline: 5%;
+    top: 4%;
+  }
+  .modal-content {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 0px;
+    box-sizing: border-box;
+    border-radius: 26PX;
+  }
+  
+  .radio-inputs{
+    width: 309px;
+  }
+
+  .column{
+    align-items: center;
+    padding-inline: 9%;}
+  .counter{
+    width:46PX;
+    height: 90px;
+    margin-left: 27px;
+  }
+
+    .payments{
+      padding-left: 100%;
+      top: -59%;
+      
+    }
+.details{
+  top: 10%;
+}
+.sumayresta{
+  width: 50px;
+  padding-left: 11px;
+}
+.pala{
+  padding-left: 90px;
+}
+div.palashipping {
+  padding-left: 90px;
+  font-size: 15px;
+}
+
+span.SPAN2 {
+  top: 3px;
+  padding-left: 80px;
+}
+.payments .details {
+  display: grid;
+  grid-template-columns: 10fr 1fr;
+  padding-left: 17px;
+  gap: 10px;
+  top: 37px;
+}
+.value{
+  padding-left: 7px;
+}
+  
+  /* Ajustar el título */
+  .title {
+    background-color: rgb(125, 165, 235);
+    padding: 10px 0 10px 0;
+    margin: 0;
+    z-index: 1;
+    padding: 0%;
+    height: 12%;
+    top: 0%;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .btnClose {
+    top: 22px;
+    margin-left: -20px;
+    right: 20px;
+    z-index: 2;
+    align-self: flex-end;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    width: 35px;
+    position: absolute;
+    
+  }
+  
+  /* Estilos para la barra de desplazamiento */
+  .modal-content::-webkit-scrollbar {
+    width: 5px;
+  }
+  .checkout .cora{
+    margin-top: 15px;
+  }
+  
+  .menufooter {
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #4b79e6;
+    padding-left: 0px;
+    z-index: 0;
+  }
+  .footer {
+    position: relative;
+    width: 100%;
+    background: #4b79e6;
+    min-height: 100px;
+    padding: 12px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+}
+/*Tablet*/
+@media (max-width: 999px) {
+  header {
+    font-size: 2rem;
+  }
+  h1 {
+    font-family: "SourceCodePro";
+    font-size: 40px;
+    text-align: center;
+    top: -16px;
+    width: 100%;
+  }
+  h2 {
+    font-family: "SourceCodePro";
+    font-size: 25px;
+    text-align: center;
+    top: -45px;
+    width: 100%;
+  }
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-row-gap: 5px;
+    padding-top: 10%;
+    padding-left: 12%;
+    padding-right: 170px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  img.dispe {
+    width:290px;
+    margin-top: 40px;
+  
+  }
+
+  .uno{
+    width: 90px;
+  }
+  .dos{
+    width: 90px;
+  }
+  .tres{
+    width: 90px;
+  }
+  .cuatro{
+    width: 90px;
+  }
+  
+  .descripo {
+    max-width: 700px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .radio-inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    margin-bottom: 25px;
+    margin: 0 auto;
+  }
+
+  .form {
+    width: 100%;
+    top: 10%;
+  }
+  .form.form{
+    padding-inline: 5%;
+    top: 2%;
+  }
+  
+  .menufooter {
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #4b79e6;
+    padding-left: 0px;
+    z-index: 0;
+  }
+  .footer {
+    position: relative;
+    width: 100%;
+    background: #4b79e6;
+    min-height: 100px;
+    padding: 12px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .modal {
+    background: #ffffff;
+    box-shadow: 0px 187px 75px rgba(0, 0, 0, 0.01),
+      0px 105px 63px rgba(0, 0, 0, 0.05), 0px 47px 47px rgba(0, 0, 0, 0.09),
+      0px 12px 26px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 26px;
+    position: fixed;
+    z-index: 1000;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 88%;
+    max-width: 450px;
+    height: 80vh;
+    max-height: 900px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .modal-content {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 0px;
+    box-sizing: border-box;
+    border-radius: 26PX;
+  }
+  
+  /* Estilos para la barra de desplazamiento */
+  .modal-content::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  .modal-content::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 7px;
+  }
+  
+  .modal-content::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
+  
+  .modal-content::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  .pio{
+    padding: 20px;
+    margin-left: 10px;
+  }
+  /* Hacer que el botón de cierre sea fijo */
+  .btnClose {
+    top: 20px;
+    margin-left: -20px;
+    right: 20px;
+    z-index: 2;
+    align-self: flex-end;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    width: 40px;
+    position: absolute;
+    
+  }
+  
+  /* Ajustar el título */
+  .title {
+    background-color: rgb(125, 165, 235);
+    padding: 10px 0 10px 0;
+    margin: 0;
+    z-index: 1;
+    padding: 0%;
+    height: 12%;
+    top: 0%;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  /* Asegurar que el contenido del formulario no se desborde */
+  .form {
+    top: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* Ajustar el espacio inferior del último elemento del formulario */
+  .form > *:last-child {
+    margin-bottom: 40px;
+  }
+  .card.checkout{
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    position: sticky;
+  }
+  .radio-inputs{
+    width: 309px;
+  }
+  .cora{
+    padding-inline: 0px;
+  }
+  .column{
+    align-items: center;
+    padding-inline: 9%;}
+  .counter{
+    width:45PX;
+    height: 90px;
+    margin-left: 27px;
+  }
+
+    .payments{
+      padding-left: 100%;
+      top: -59%;
+      
+    }
+.details{
+  top: 10%;
+}
+.sumayresta{
+  width: 50px;
+  padding-left: 11px;
+}
+.pala{
+  padding-left: 90px;
+}
+div.palashipping {
+  padding-left: 90px;
+  font-size: 15px;
+}
+
+span.SPAN2 {
+  top: 3px;
+  padding-left: 80px;
+}
+.payments .details {
+  display: grid;
+  grid-template-columns: 10fr 1fr;
+  padding-left: 17px;
+  gap: 10px;
+  top: 37px;
+}
+.value{
+  padding-left: 7px;
+}
+  .footer {
+    margin-top: 3%;
+  }
+  .menufooter {
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #4b79e6;
+    padding-left: 0px;
+    z-index: 0;
+  }
+  .checkout .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px 10px 20px;
+    background-color: #c4d7f9;
+    margin-top: 50px;
+    height: 80px;
+    width: 100%;
+  }
+
+  .corazoncito {
+    margin-top: 30px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+  }
+  .textoco {
+    font-size: 20px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .counter {
+    width: 50px;
+  }
+
+  .image-container {
+    width: 800px; /* Establece un ancho máximo de 800px */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+  }
+
+  .ul_links {
+    top: 67px;
+  }
+  .titulo {
+    top: 77px;
+    text-align: center;
+    font-size: 50px;
+  }
+  p.titulo {
+    top: 90px;
+    text-align: center;
+    font-size: 38px;
+}
+.checkout .cora {
+  margin-top: -20px;
+}
+}
+@media (max-width: 700px) {
+.corazoncito{
+  margin-top: 45px;
+
+}}
+
+@media (max-width: 480px) {
+  /* Estilos para móviles */
+  header {
+    background-color: var(--color_primario);
+    color: #fff;
+    height: var(--altura_header);
+    font-family: "SourceCodePro";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .descripi {
+    max-width: 800px;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .miModal{
+   margin-top: 20px;
+  }
+  .pio {
+    text-align: justify;
+    font-family: "Letra-texto";
+    margin-top: -10px;
+  }
+  .huellas {
+    list-style-position: inside;
+    height: 100px;
+    font-family: "Letra-texto";
+    margin-top: -25px;
+    }
+
+
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 0.1fr;
+    grid-column-gap: 70px;
+    grid-row-gap: 0px;
+    top: -17%;
+    margin-top: 20%;
+    align-items: center;
+    align-self: center;
+    padding-inline: 32px;
+  }
+
+  .checkout .cora {
+    margin-top: -20px;
+  }
+  .counter {
+    width: 90px;
+  }
+  /* Define las áreas para cada div */
+  .div1 {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .div2 {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+  .div3 {
+    grid-area: 1 / 3 / 2 / 4;
+  }
+  .div4 {
+    grid-area: 1 / 4 / 2 / 5;
+  }
+  .div5 {
+    grid-row: 5 / span 1;
+    grid-column: 1 / span 2;
+    padding-inline: 50%;
+  }
+
+  img {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+  }
+
+  img.dispe {
+    width: 250px; /* Ancho específico para la imagen principal */
+  }
+  img.uno {
+    width: 50px; /* Ancho específico para la imagen uno */
+  }
+
+  img.dos {
+    width: 50px; /* Ancho específico para la imagen dos */
+  }
+
+  img.tres {
+    width: 50px; /* Ancho específico para la imagen tres */
+  }
+  img.cuatro {
+    width: 50px; /* Ancho específico para la imagen cuatro */
+  }
+  p.titulito {
+    text-align: center;
+    top: 51px;
+    font-size: 19px;
+  }
+
+  p.titulo {
+    top: 80px;
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .form {
+    width: 100%;
+    top: 10%;
+  }
+  .form.form{
+    padding-inline: 5%;
+    top: 2%;
+  }
+  
+  .menufooter {
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #4b79e6;
+    padding-left: 0px;
+    z-index: 0;
+  }
+  .footer {
+    position: relative;
+    width: 100%;
+    background: #4b79e6;
+    min-height: 100px;
+    padding: 12px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .modal {
+    background: #ffffff;
+    box-shadow: 0px 187px 75px rgba(0, 0, 0, 0.01),
+      0px 105px 63px rgba(0, 0, 0, 0.05), 0px 47px 47px rgba(0, 0, 0, 0.09),
+      0px 12px 26px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 26px;
+    position: fixed;
+    z-index: 1000;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 88%;
+    max-width: 450px;
+    height: 80vh;
+    max-height: 900px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .modal-content {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos para la barra de desplazamiento */
+  .modal-content::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  .modal-content::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 7px;
+  }
+  
+  .modal-content::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
+  
+  .modal-content::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+  /* Hacer que el botón de cierre sea fijo */
+  .btnClose {
+    top: 20px;
+    margin-left: -20px;
+    right: 20px;
+    z-index: 2;
+    align-self: flex-end;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+  
+  /* Ajustar el título */
+  .title {
+    background-color:  rgb(125, 165, 235);
+    padding: 10px 0 10px 0;
+    margin: 0;
+    z-index: 1;
+    padding: 0%;
+    height: 12%;
+    top: 0%;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+  }
+  
+  /* Asegurar que el contenido del formulario no se desborde */
+  .form {
+    top: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* Ajustar el espacio inferior del último elemento del formulario */
+  .form > *:last-child {
+    margin-bottom: 40px;
+  }
+  .card.checkout{
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    position: sticky;
+  }
+  .radio-inputs{
+    width: 309px;
+  }
+  .cora{
+    padding-inline: 0px;
+  }
+  .column{
+    align-items: center;
+    padding-inline: 9%;}
+  .counter{
+    width:45PX;
+    height: 90px;
+    margin-left: 27px;}
+    .payments{
+      padding-left: 100%;
+      top: -59%;
+      
+    }
+.details{
+  top: 10%;
+}
+.sumayresta{
+  width: 50px;
+  padding-left: 11px;
+}
+.pala{
+  padding-left: 90px;
+}
+div.palashipping {
+  padding-left: 90px;
+  font-size: 15px;
+}
+
+span.SPAN2 {
+  top: 3px;
+  padding-left: 80px;
+}
+.payments .details {
+  display: grid;
+  grid-template-columns: 10fr 1fr;
+  padding-left: 17px;
+  gap: 10px;
+  top: 37px;
+}
+.value{
+  padding-left: 7px;
+}
+.checkout .checkout-btn 
+{
+padding: 5PX 50PX;
+}
+.corazoncito{
+  margin-top: 20px;
+}
+  }
+
